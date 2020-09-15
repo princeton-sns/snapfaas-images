@@ -5,6 +5,7 @@
 
 static int vsock_connect(int cid, int port)
 {
+	usleep(1000);
 	int fd;
 	struct sockaddr_vm sa = {
     .svm_family =  AF_VSOCK,
