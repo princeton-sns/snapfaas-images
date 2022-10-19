@@ -1,3 +1,7 @@
+Note before archiving this repo:
+master branch was imported with history into faasten/faasten master branch
+yue/wip/faasten branch was imported with history into faasten/faasten feat/faasten branch.
+
 ## rootfs
 `rootfs` contains four subdirectories, namely `common`, `fullapp`, `regular`, and `snapfaas`.
 
